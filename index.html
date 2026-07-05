@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trenčín — mesto, ktoré stráži hrad · Európske hlavné mesto kultúry 2026</title>
+<meta name="description" content="Turistický sprievodca Trenčínom: hrad Matúša Čáka, rímsky nápis Laugaricio z roku 179, Mierové námestie a program Európskeho hlavného mesta kultúry 2026.">
+<meta property="og:title" content="Trenčín — mesto, ktoré stráži hrad">
+<meta property="og:description" content="Rímska stopa, stredoveký hrad a živé námestie. Všetko na jeden víkend.">
+<meta property="og:image" content="assets/img/hero_poster.webp">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🏰</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,420;9..144,560&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="preskoc" href="#hlavny-obsah">Preskočiť na hlavný obsah</a>
+
+<!-- Živé pozadie: video hradu fixné pod celou stránkou -->
+<div class="podklad" aria-hidden="true">
+  <img src="assets/img/hero_poster.webp" alt="" width="1920" height="1080" fetchpriority="high" decoding="async">
+  <video id="podklad-video" muted loop playsinline preload="none" poster="assets/img/hero_poster.webp" tabindex="-1">
+    <source data-src="assets/video/hrad_loop.mp4" type="video/mp4">
+  </video>
+  <div class="podklad-tien"></div>
+</div>
+
+<header class="hlavicka" id="hlavicka">
+  <nav class="hlavicka-vnutro" aria-label="Hlavná navigácia">
+    <a class="logo" href="#hore">TRENČÍN<span class="logo-rok">MMXXVI</span></a>
+    <button class="menu-tlacidlo" id="menu-tlacidlo" aria-expanded="false" aria-controls="menu" aria-label="Otvoriť menu">
+      <span class="menu-ciarka"></span><span class="menu-ciarka"></span>
+    </button>
+    <ul class="menu" id="menu">
+      <li><a href="#objavuj">Objavuj</a></li>
+      <li><a href="#galeria">Galéria</a></li>
+      <li><a href="#pribeh">Príbeh</a></li>
+      <li><a href="#informacie">Informácie</a></li>
+      <li><a class="menu-ehmk" href="https://www.trencin2026.eu" target="_blank" rel="noopener">EHMK 2026 ↗</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="hlavny-obsah">
+
+  <!-- HERO — priehľad na živé video -->
+  <section class="hero" id="hore">
+    <p class="hero-znacka">Európske hlavné mesto kultúry 2026</p>
+    <h1 class="hero-titul">TREN<span class="hero-akcent">Č</span>ÍN</h1>
+    <p class="hero-podtitul">Rímska stopa, stredoveký hrad a živé námestie.<br>Všetko na jeden víkend.</p>
+    <div class="hero-akcie">
+      <a class="tlacidlo tlacidlo--plne" href="#objavuj">Objav mesto</a>
+      <a class="tlacidlo tlacidlo--obrys" href="#galeria">Pozri galériu</a>
+    </div>
+    <a class="hero-sipka" href="#uvod" aria-label="Posunúť na obsah">
+      <span class="hero-sipka-ciara"></span>
+    </a>
+  </section>
+
+  <!-- I — ÚVOD (prvá doska ponad video) -->
+  <section class="doska" id="uvod">
+    <div class="vnutro">
+      <p class="oznacenie reveal">I &middot; Mesto na skale</p>
+      <h2 class="titul-xl reveal">Dva tisíc rokov<br>nad jednou riekou</h2>
+      <div class="uvod-mriezka">
+        <p class="text-veduci reveal">Trenčín stojí pri Váhu pod vápencovou skalou, na ktorej hrad drží stráž
+        už deväť storočí. Rimania sem prišli skôr — a odkaz, ktorý vytesali do skaly,
+        tu stojí dodnes. V roku 2026 je Trenčín Európskym hlavným mestom kultúry
+        a celý rok žije festivalmi, výstavami a hudbou.</p>
+        <dl class="cisla">
+          <div class="cislo reveal">
+            <dt>Rímsky nápis na hradnej skale</dt>
+            <dd>r. 179</dd>
+          </div>
+          <div class="cislo reveal">
+            <dt>Prvá písomná zmienka o hrade</dt>
+            <dd>1113</dd>
+          </div>
+          <div class="cislo reveal">
+            <dt>Hĺbka hradnej Studne lásky</dt>
+            <dd>80 m</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- II — OBJAVUJ -->
+  <section class="doska" id="objavuj">
+    <div class="vnutro">
+      <p class="oznacenie reveal">II &middot; Štyri zastávky</p>
+      <h2 class="titul-xl reveal">Čo si nenechať ujsť</h2>
+      <div class="karty">
+        <article class="karta karta--velka reveal">
+          <button class="karta-obraz" data-lightbox="0" type="button" aria-label="Zväčšiť fotografiu: Trenčiansky hrad">
+            <img src="assets/img/k_hrad_t.webp" alt="Trenčiansky hrad vo večernom svetle, pod ním hradby a strechy mesta" width="900" height="600" loading="lazy" decoding="async">
+          </button>
+          <div class="karta-telo">
+            <h3>Trenčiansky hrad</h3>
+            <p>Sídlo Matúša Čáka, pána Váhu a Tatier. Z Matúšovej veže dovidíš na celé
+            Považie — a dole v skale ťa čaká Studňa lásky s legendou o Omarovi a Fatime.</p>
+          </div>
+        </article>
+        <article class="karta reveal">
+          <button class="karta-obraz" data-lightbox="1" type="button" aria-label="Zväčšiť fotografiu: Mierové námestie">
+            <img src="assets/img/k_namestie_t.webp" alt="Mierové námestie s morovým stĺpom a hradom nad strechami" width="900" height="676" loading="lazy" decoding="async">
+          </button>
+          <div class="karta-telo">
+            <h3>Mierové námestie</h3>
+            <p>Korzo s kaviarňami pod morovým stĺpom z roku 1712. Hrad máš pri espresse
+            stále nad hlavou.</p>
+          </div>
+        </article>
+        <article class="karta reveal">
+          <button class="karta-obraz" data-lightbox="2" type="button" aria-label="Zväčšiť fotografiu: rímsky nápis Laugaricio">
+            <img src="assets/img/k_napis_t.webp" alt="Rímsky nápis z roku 179 vytesaný do hradnej skaly" width="900" height="676" loading="lazy" decoding="async">
+          </button>
+          <div class="karta-telo">
+            <h3>Rímsky nápis Laugaricio</h3>
+            <p>Najsevernejší dôkaz o pobyte rímskych légií v strednej Európe, vytesaný
+            priamo do hradnej skaly v roku 179. Uvidíš ho z terasy hotela Elizabeth.</p>
+          </div>
+        </article>
+        <article class="karta reveal">
+          <button class="karta-obraz" data-lightbox="3" type="button" aria-label="Zväčšiť fotografiu: Farské schody">
+            <img src="assets/img/k_schody_t.webp" alt="Kryté renesančné Farské schody so schodiskom do tieňa" width="900" height="1200" loading="lazy" decoding="async">
+          </button>
+          <div class="karta-telo">
+            <h3>Farské schody</h3>
+            <p>Kryté renesančné schodisko z roku 1568. Najkrajšia skratka medzi námestím
+            a farským kostolom — a najfotogenickejší tieň v meste.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- OKNO NA VIDEO — rímsky citát -->
+  <section class="okno" aria-label="Citát z rímskeho nápisu">
+    <div class="okno-obsah reveal">
+      <p class="okno-napis">VICTORIAE AVGVSTORVM<br>EXERCITVS QVI LAVGARICIONE SEDIT</p>
+      <p class="okno-preklad">„Víťazstvu cisárov — venované vojskom, ktoré táborilo v Laugariciu."<br>
+      <span>855 vojakov II. légie &middot; zima roku 179</span></p>
+    </div>
+  </section>
+
+  <!-- III — GALÉRIA -->
+  <section class="doska" id="galeria">
+    <div class="vnutro">
+      <p class="oznacenie reveal">III &middot; Mesto v obrazoch</p>
+      <h2 class="titul-xl reveal">Galéria</h2>
+      <p class="text-veduci reveal">Klikni na fotografiu — otvorí sa vo veľkom.</p>
+      <div class="galeria" id="galeria-mriezka">
+        <button class="galeria-polozka reveal" data-lightbox="4" type="button" aria-label="Zväčšiť: hrad z vtáčej perspektívy">
+          <img src="assets/img/g_hrad_vzduch_t.webp" alt="Trenčiansky hrad z dronu, okolo hradby a mesto pri rieke" width="900" height="674" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="5" type="button" aria-label="Zväčšiť: Matúšova veža">
+          <img src="assets/img/g_matusova_veza_t.webp" alt="Kamenná Matúšova veža zblízka" width="900" height="1376" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="6" type="button" aria-label="Zväčšiť: námestie s hradom">
+          <img src="assets/img/g_namestie_hrad_t.webp" alt="Mierové námestie s ľuďmi, nad strechami Trenčiansky hrad" width="900" height="676" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="7" type="button" aria-label="Zväčšiť: hrad v noci">
+          <img src="assets/img/g_hrad_noc_t.webp" alt="Osvetlený Trenčiansky hrad v noci" width="900" height="676" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="8" type="button" aria-label="Zväčšiť: hradná vežička">
+          <img src="assets/img/g_hradna_vezicka_t.webp" alt="Hradná vežička s dreveným šindľovým prístreškom" width="900" height="1352" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="9" type="button" aria-label="Zväčšiť: mestská veža a synagóga">
+          <img src="assets/img/g_veza_synagoga_t.webp" alt="Mestská veža a zelená kupola synagógy nad strechami" width="900" height="538" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="10" type="button" aria-label="Zväčšiť: hrad pri západe slnka">
+          <img src="assets/img/g_hrad_zapad_t.webp" alt="Hrad v teplom popoludňajšom svetle od juhozápadu" width="900" height="600" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="11" type="button" aria-label="Zväčšiť: pešia zóna">
+          <img src="assets/img/g_korzo_t.webp" alt="Pešia zóna so stromami, v pozadí piaristický kostol" width="900" height="676" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="12" type="button" aria-label="Zväčšiť: život na námestí">
+          <img src="assets/img/g_namestie_ludia_t.webp" alt="Ľudia na Mierovom námestí pod morovým stĺpom, hore hrad" width="900" height="676" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="13" type="button" aria-label="Zväčšiť: hrad nad strechami">
+          <img src="assets/img/g_hrad_strechy_t.webp" alt="Hrad vyrastajúci priamo nad strechami starého mesta" width="900" height="514" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="14" type="button" aria-label="Zväčšiť: panoráma striech">
+          <img src="assets/img/g_panorama_t.webp" alt="Široká panoráma striech starého mesta s vežami piaristického kostola" width="900" height="302" loading="lazy" decoding="async">
+        </button>
+        <button class="galeria-polozka reveal" data-lightbox="15" type="button" aria-label="Zväčšiť: hrad z lietadla">
+          <img src="assets/img/g_hrad_lietadlo_t.webp" alt="Hrad a hradný kopec z lietadla, okolo zeleň a mesto" width="900" height="676" loading="lazy" decoding="async">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- IV — PRÍBEH -->
+  <section class="doska" id="pribeh">
+    <div class="vnutro">
+      <p class="oznacenie reveal">IV &middot; Od légie po metropolu kultúry</p>
+      <h2 class="titul-xl reveal">Príbeh mesta</h2>
+      <ol class="casova-os">
+        <li class="udalost reveal">
+          <span class="udalost-rok">179</span>
+          <div><h3>Légia pod skalou</h3><p>Vojaci rímskej II. légie prezimujú pri Laugariciu a do hradnej skaly
+          vytesajú nápis — najsevernejšiu stopu Ríma v strednej Európe.</p></div>
+        </li>
+        <li class="udalost reveal">
+          <span class="udalost-rok">1113</span>
+          <div><h3>Hrad vstupuje do dejín</h3><p>Zoborská listina prvý raz písomne spomína Trenčiansky hrad,
+          strážcu vážskej cesty.</p></div>
+        </li>
+        <li class="udalost reveal">
+          <span class="udalost-rok">1302</span>
+          <div><h3>Pán Váhu a Tatier</h3><p>Matúš Čák Trenčiansky ovláda z hradu veľkú časť dnešného Slovenska.
+          Jeho meno nesie hlavná veža dodnes.</p></div>
+        </li>
+        <li class="udalost reveal">
+          <span class="udalost-rok">1568</span>
+          <div><h3>Kryté schody</h3><p>Mesto stavia Farské schody — krytú renesančnú spojnicu námestia
+          a farského kostola.</p></div>
+        </li>
+        <li class="udalost reveal">
+          <span class="udalost-rok">1790</span>
+          <div><h3>Veľký požiar</h3><p>Mesto aj hrad vyhoria. Hrad zostáva ruinou vyše storočia,
+          kým sa nezačne jeho obnova.</p></div>
+        </li>
+        <li class="udalost reveal">
+          <span class="udalost-rok">1913</span>
+          <div><h3>Synagóga</h3><p>Židovská komunita stavia synagógu v byzantsko-maurskom štýle —
+          dnes výstavný priestor s nezameniteľnou kupolou.</p></div>
+        </li>
+        <li class="udalost udalost--teraz reveal">
+          <span class="udalost-rok">2026</span>
+          <div><h3>Európske hlavné mesto kultúry</h3><p>Trenčín (spolu s fínskym Oulu) žije celý rok kultúrou:
+          festivaly, výstavy a hudba v uliciach, ktoré poznali Rimanov.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- INFORMÁCIE -->
+  <section class="doska" id="informacie">
+    <div class="vnutro">
+      <p class="oznacenie reveal">Praktické informácie</p>
+      <h2 class="titul-xl reveal">Naplánuj si návštevu</h2>
+      <div class="info-mriezka">
+        <div class="info-blok reveal">
+          <h3>Ako sa dostať</h3>
+          <p>Vlakom z Bratislavy približne 1 h 20 min po hlavnej trati na Žilinu.
+          Autom po diaľnici D1, zjazd Trenčín-centrum. Zo stanice si na námestí
+          pešo za desať minút.</p>
+        </div>
+        <div class="info-blok reveal">
+          <h3>Kedy prísť</h3>
+          <p>Máj až september praje hradu aj korzu. V júli patrí letisko festivalu
+          Pohoda, v decembri námestiu vianočné trhy — a v roku 2026 beží celoročný
+          program EHMK.</p>
+        </div>
+        <div class="info-blok reveal">
+          <h3>Oplatí sa vedieť</h3>
+          <p>Hrad je otvorený celoročne, hodiny sa menia podľa sezóny — over si ich
+          na oficiálnej stránke. Rímsky nápis uvidíš zadarmo z terasy hotela Elizabeth.
+          Najkrajší výhľad na mesto je z lesoparku Brezina.</p>
+        </div>
+      </div>
+      <div class="info-odkazy reveal">
+        <a class="tlacidlo tlacidlo--obrys" href="https://trencianskyhrad.sk" target="_blank" rel="noopener">Vstupné a hodiny hradu ↗</a>
+        <a class="tlacidlo tlacidlo--obrys" href="https://www.trencin2026.eu" target="_blank" rel="noopener">Program EHMK 2026 ↗</a>
+        <a class="tlacidlo tlacidlo--obrys" href="https://www.trencin.sk" target="_blank" rel="noopener">Oficiálna stránka mesta ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OKNO NA VIDEO — záver -->
+  <section class="okno okno--zaver" aria-label="Záverečná výzva">
+    <div class="okno-obsah reveal">
+      <h2 class="okno-titul">Hrad svieti každú noc.</h2>
+      <p class="okno-preklad">Príď sa pozrieť, prečo sa sem Rimania, králi aj festivaly vracajú už dva tisíc rokov.</p>
+      <a class="tlacidlo tlacidlo--plne" href="#hore">Späť na začiatok</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pata">
+  <div class="vnutro pata-mriezka">
+    <div>
+      <p class="pata-logo">TRENČÍN <span>MMXXVI</span></p>
+      <p class="pata-text">Nekomerčný turistický sprievodca mestom Trenčín.
+      Web nepoužíva cookies ani analytiku.</p>
+    </div>
+    <nav aria-label="Odkazy v pätičke">
+      <h4>Sekcie</h4>
+      <ul>
+        <li><a href="#objavuj">Objavuj</a></li>
+        <li><a href="#galeria">Galéria</a></li>
+        <li><a href="#pribeh">Príbeh</a></li>
+        <li><a href="#informacie">Informácie</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h4>Oficiálne zdroje</h4>
+      <ul>
+        <li><a href="https://www.trencin.sk" target="_blank" rel="noopener">trencin.sk</a></li>
+        <li><a href="https://trencianskyhrad.sk" target="_blank" rel="noopener">trencianskyhrad.sk</a></li>
+        <li><a href="https://www.trencin2026.eu" target="_blank" rel="noopener">trencin2026.eu</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Fotografie a video</h4>
+      <p class="pata-text">Fotografie: Wikimedia Commons — Ingo Mehling, Palickap, Jan Polák, Parik.zak,
+      Jakub CA, Scotch Mist, Marián Hubinský, Krzysztof Golik, Akul59 (licencie CC BY / CC BY-SA)
+      a voľné dielo. Video: Hi2SKY. Úplný zoznam v súbore <a href="KREDITY.md">KREDITY.md</a>.</p>
+    </div>
+  </div>
+  <div class="vnutro pata-spodok">
+    <p>© <span id="rok">2026</span> Trenčín — sprievodca mestom &middot; Vytvorené v Trenčíne</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<dialog class="lightbox" id="lightbox" aria-label="Galéria vo veľkom">
+  <button class="lightbox-zavriet" id="lightbox-zavriet" type="button" aria-label="Zavrieť galériu">×</button>
+  <button class="lightbox-sipka lightbox-sipka--vlavo" id="lightbox-predosla" type="button" aria-label="Predošlá fotografia">‹</button>
+  <figure class="lightbox-ramec">
+    <img id="lightbox-obraz" src="" alt="" width="1600" height="1200">
+    <figcaption id="lightbox-popis"></figcaption>
+  </figure>
+  <button class="lightbox-sipka lightbox-sipka--vpravo" id="lightbox-dalsia" type="button" aria-label="Ďalšia fotografia">›</button>
+</dialog>
+
+<!-- Zrnitosť cez celú stránku -->
+<svg class="zrno" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <filter id="zrno-filter"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/></filter>
+  <rect width="100%" height="100%" filter="url(#zrno-filter)"/>
+</svg>
+
+<script src="main.js" defer></script>
+</body>
+</html>
